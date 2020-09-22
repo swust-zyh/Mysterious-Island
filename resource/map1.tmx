@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-down" width="51" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="22" nextobjectid="83">
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="50" columns="10">
+  <image source="image/tileset1.png" width="160" height="80"/>
+ </tileset>
+ <tileset firstgid="51" name="castledoor" tilewidth="16" tileheight="16" tilecount="6" columns="2">
+  <image source="image/castledoor.png" width="32" height="48"/>
+ </tileset>
+ <tileset firstgid="57" name="infobox" tilewidth="16" tileheight="16" tilecount="450" columns="50">
+  <image source="image/infobox.png" width="800" height="150"/>
+ </tileset>
+ <tileset firstgid="507" name="treasurechest" tilewidth="16" tileheight="16" tilecount="8" columns="4">
+  <image source="image/treasurechest.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="515" name="tileset3" tilewidth="16" tileheight="16" tilecount="132" columns="11">
+  <image source="image/tileset3.png" width="176" height="192"/>
+ </tileset>
+ <tileset firstgid="647" name="armorman" tilewidth="16" tileheight="16" tilecount="32" columns="8">
+  <image source="image/armorman.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="679" name="house" tilewidth="16" tileheight="16" tilecount="896" columns="32">
+  <image source="image/house.png" width="512" height="448"/>
+ </tileset>
+ <tileset firstgid="1575" name="medievalsigns" tilewidth="16" tileheight="16" tilecount="16" columns="4">
+  <image source="image/medievalsigns.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="1591" name="tileset2" tilewidth="16" tileheight="16" tilecount="110" columns="10">
+  <image source="image/tileset2.png" width="160" height="180"/>
+ </tileset>
+ <layer id="1" name="草地与道路" width="51" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztlb0OwyAMhLMzZ+n7P2hXhHzmzj80rRrJCyLg83c21/X/nviNKV5EDDKy/2fiPqTlFmMI++Z7GZ3suZ/issuT0csyVrko/Dq4KFq6uDyp96NsVC2VXDJ+idZgzuUEF6aPUQ12OXb1i7dXnTddNarUUj3zOnsf5RzxmHXPutY5k5HOdd5YZ6A8GS3VXLz6r+uelrUu3xy/pEV5a3Z8K+YY6y+Uq+r/3VrVHEPeQW+Jpek0l8jsQfOYfVOZ+zo8xs5R781BLD3fMFpYP6JzkIadJtY7FucIF0ZL1FtWDRieau9nIsMlww9xycSs4Q0yuFkU
+  </data>
+ </layer>
+ <layer id="3" name="河流与树木" width="51" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzt0kdOHAEQQNE+DGsuQM4YTMbkYEwwLMg2mJxNNBkb8H64EtyGNxIjtUazRKJ71CW9fZV+pYIgeKKIYkoopYxyKqikimpqqKWOej7RQCOfaaKZFlppo50OOvlCF9300Esf/QwwyBDDfGWEb4wyxjgTfGeSKVJvNzzzwjQzzDLHPAss8oOfLLHML1ZYZY11Nthki2122GWPfQ74zSFHHHPCKWf84ZwLLrnimhtuueMv/7jngUf+h24oCPJj0ncUfvQS7zTpO5Iu0ZukSzQn6RLNSbpEc5Iu0ZykSzQnH7vE/Z7wHXH/s/AdBUF822R2D98T1zaZ3bO7xK1NeO/sLnFrE947V5e4tMneOdOhMIhfm1w7vwKhHTq7
+  </data>
+ </layer>
+ <layer id="14" name="入口" width="51" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztz7kKgDAQhGHJK3m+guDRCB6N4FF6vH/liF3YIo2E1fngb5YUkyB4R27cbho0wm7ppsGI3QUqUYVq89y0arG9Qz0aFP/jNmH/jBa0Kv/Lhv07OtCp/C9EXxSiyOHmm8vOGCXWG+nmm8vOFGXWG+nmm5adRERERH91AXixDQk=
+  </data>
+ </layer>
+ <layer id="13" name="鲜花" width="51" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzt0TEKwDAMA8CQXyddm767htR0zmi4Aw3aBGoNAAAA4MzoO5XN2H9F7i/ZK1qx++n/L9kry1848wJh8QgV
+  </data>
+ </layer>
+ <objectgroup id="11" name="神秘人">
+  <object id="20" x="431" y="236">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="守卫">
+  <object id="3" x="341.359" y="56.2297">
+   <point/>
+  </object>
+  <object id="4" x="456.804" y="57.7225">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="gamer">
+  <object id="5" x="385.943" y="73.024">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="20" name="宝箱">
+  <object id="57" x="623.5" y="94.5" width="33" height="34.5"/>
+  <object id="58" x="608" y="334" width="32.5" height="32.5"/>
+  <object id="59" x="319.5" y="274.5" width="32" height="30.5"/>
+  <object id="60" x="159" y="334" width="33" height="33.5"/>
+  <object id="61" x="15.5" y="32" width="32.5" height="31"/>
+ </objectgroup>
+ <objectgroup id="10" name="障碍">
+  <object id="9" name="invisible" x="353.806" y="265.189" width="26.8182" height="46.3469"/>
+  <object id="11" name="invisible" x="193.579" y="341.964" width="29.8325" height="33.3397"/>
+  <object id="12" name="invisible" x="16.9139" y="64.689" width="39.7368" height="40.3062"/>
+  <object id="13" x="1.99043" y="285.696" width="63.6316" height="111.395"/>
+  <object id="14" x="1.49282" y="31.3493" width="12.9378" height="239.847"/>
+  <object id="15" x="800.651" y="32.3445" width="14.9282" height="367.234"/>
+  <object id="16" x="740.467" y="285.694" width="58.6914" height="112.392"/>
+  <object id="17" x="1.49282" y="0.995215" width="812.593" height="30.8517"/>
+  <object id="24" x="216.5" y="34" width="134.5" height="186"/>
+  <object id="25" x="454" y="289" width="66" height="96.5"/>
+  <object id="26" x="529" y="380.5" width="195" height="16.5"/>
+  <object id="27" x="716.5" y="286" width="18.5" height="79"/>
+  <object id="28" x="645.5" y="279" width="20.5" height="51"/>
+  <object id="29" x="568.5" y="284.5" width="31" height="38.5"/>
+  <object id="31" x="569" y="199.5" width="44" height="28"/>
+  <object id="32" x="433.5" y="33.5" width="366.5" height="60.5"/>
+  <object id="33" x="443.5" y="95.5" width="82.5" height="121"/>
+  <object id="34" x="530.5" y="97.5" width="85.5" height="50.5"/>
+  <object id="36" x="665.5" y="96" width="13.5" height="123.5"/>
+  <object id="37" x="690" y="100" width="102.5" height="56.5"/>
+  <object id="39" x="729.5" y="167" width="24" height="58.5"/>
+  <object id="40" x="79.5" y="285.5" width="66" height="112"/>
+  <object id="41" x="160.5" y="379.5" width="189.5" height="18.5"/>
+  <object id="42" x="199.5" y="280.5" width="33.5" height="51.5"/>
+  <object id="43" x="278" y="294.5" width="36.5" height="70"/>
+  <object id="44" x="318.5" y="304" width="25" height="61"/>
+  <object id="45" x="65.5" y="75" width="76.5" height="27.5"/>
+  <object id="47" x="32.5" y="152.5" width="115" height="7"/>
+  <object id="48" x="55" y="176" width="32.5" height="55"/>
+  <object id="49" x="133" y="179" width="22" height="51"/>
+  <object id="65" x="356.5" y="312" width="83.5" height="75.5"/>
+  <object id="68" name="invisible" x="673" y="340.5" width="25.5" height="20"/>
+  <object id="69" x="1154.5" y="213.5"/>
+  <object id="70" x="15.5" y="166.5" width="31.5" height="10"/>
+  <object id="71" x="96" y="167" width="32" height="10"/>
+  <object id="72" x="689" y="164" width="31" height="10"/>
+  <object id="73" x="768" y="166.5" width="30" height="10"/>
+ </objectgroup>
+ <objectgroup id="18" name="怪兽">
+  <object id="21" name="3" x="529" y="327">
+   <point/>
+  </object>
+  <object id="22" name="2" x="580" y="236.5">
+   <point/>
+  </object>
+  <object id="23" name="1" x="158.5" y="280">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="19" name="门">
+  <object id="51" x="14.5" y="168" width="33.5" height="38.5"/>
+  <object id="52" x="95.5" y="168" width="33" height="41"/>
+  <object id="53" x="689" y="164" width="30" height="46"/>
+  <object id="54" x="767.5" y="166.5" width="31.5" height="41.5"/>
+ </objectgroup>
+</map>

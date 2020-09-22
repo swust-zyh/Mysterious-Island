@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-down" width="51" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="37" nextobjectid="67">
+ <tileset firstgid="1" name="tileset3" tilewidth="16" tileheight="16" tilecount="132" columns="11">
+  <image source="image/tileset3.png" width="176" height="192"/>
+ </tileset>
+ <tileset firstgid="133" name="tileset1" tilewidth="16" tileheight="16" tilecount="50" columns="10">
+  <image source="image/tileset1.png" width="160" height="80"/>
+ </tileset>
+ <tileset firstgid="183" name="infobox" tilewidth="16" tileheight="16" tilecount="450" columns="50">
+  <image source="image/infobox.png" width="800" height="150"/>
+ </tileset>
+ <tileset firstgid="633" name="tileset2" tilewidth="16" tileheight="16" tilecount="110" columns="10">
+  <image source="image/tileset2.png" width="160" height="180"/>
+ </tileset>
+ <tileset firstgid="743" name="castledoor" tilewidth="16" tileheight="16" tilecount="6" columns="2">
+  <image source="image/castledoor.png" width="32" height="48"/>
+ </tileset>
+ <tileset firstgid="749" name="berry0" tilewidth="16" tileheight="16" tilecount="930" columns="30">
+  <image source="image/berry0.png" width="482" height="509"/>
+ </tileset>
+ <layer id="4" name="图块层 1" width="51" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzt1UVzFEEYxvGZRXICjrjG3e0EHHGLy8b9BHwAXDaLBHdN+AQEdyfBCfIJIMHd9T9Vu8UwxQ4jPZBDDr+a3Zp+n7d7prfX45Ikj455Fs3Hgn9M29OrobdO/1oDzVubJZK2r1f13T/G7rPxCswy01O5Nvo++692eQRmmTVGlqRghCAUYQhHBCIRhWjZ+LgYxCIO8UhQ1drJSEQSkpGCVKQhHRnIRBaykYNc5CEfBShEEYpNjHOjBKUoQ7mq1k5GBSpRhWrUoBZ1qEcDlmIZlsODRnixAiuxCqsDjAuSAnP75rReVWu0VxPWYC3W+TI2YCM2YTO2YCu2YTt24DCO4CiO4ThO4CRO4TTOmBh3FudwHhdwUVVrJ+MSLqMN7biCq7iG67iBx3iCp3iG53iBl3iF13hjYtxbvMN7fMBHVa3RjEDv+jP3vuArvuE7fkDidy8rZxmfF2IRFmOJai/o7aFW7h+Q9eud2ks7sQu7sQd70Yz98q95HcQhA3vhAR6i02T9n56Jlb10E7dwGx24g7uaeXXhkYG9MJD3OQiDXdbq9fbjJ/nve8mFXuiNPuiLINfv8xqCoRiG4RiBkRiF0cp/EYIxARMxyWJ9CEIRhnBEIBJRiEYMYhGHeCQgEUlIRgpSkYZ0ZCBTM6/JmIKpmIbpmIGZmIUsZCMHucgTUJ+PAhSiCMVwowSlKEM5KlCJKlSjBrWoQz0a0GFCP95zfwyQzdU5neXXJBmjjB1L33EYL5urdTLLav/Z9J2DuQLWIirLan/lDG/BPgFrEZVltb9yht/DfQFrEZVltb/299odsv53/+6wlp5zzNksq/17zjFns9R+AjXPtLQ=
+  </data>
+ </layer>
+ <layer id="17" name="蝙蝠" width="51" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzt0LkNACAMBDDE/ruxEi0NiCdAY3eRosuTEnBTyeP6NC9CLzN61mpe27+zy41fRc3+udsrkTf6FwAAwJwKrTkLbw==
+  </data>
+ </layer>
+ <layer id="32" name="门" width="51" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztzwkNACAQwLAL/n3yigARBBJoFWwRAACcllNESbcr9qjroz3y0tfHeOQFAPjTBA+XBYY=
+  </data>
+ </layer>
+ <objectgroup id="27" name="血包1">
+  <object id="33" x="129" y="143.5" width="15.5" height="15.5"/>
+ </objectgroup>
+ <objectgroup id="28" name="血包2">
+  <object id="34" x="319.5" y="95" width="16" height="17.5"/>
+  <object id="35" x="640" y="128.5" width="16.5" height="16"/>
+ </objectgroup>
+ <objectgroup id="7" name="台阶">
+  <object id="6" x="88" y="144.5" width="54" height="4.5"/>
+  <object id="57" x="214.5" y="98.75" width="41" height="36"/>
+  <object id="58" x="370.5" y="147.25" width="75" height="20.5"/>
+  <object id="59" x="559.5" y="118.75" width="54" height="6.5"/>
+ </objectgroup>
+ <objectgroup id="10" name="地刺">
+  <object id="12" x="199.5" y="390.5" width="303" height="8"/>
+  <object id="13" x="503.5" y="391" width="307.5" height="8"/>
+  <object id="22" x="158" y="133.5" width="13.5" height="11.5"/>
+  <object id="23" name="1" x="461.5" y="148" width="12.5" height="11"/>
+ </objectgroup>
+ <objectgroup id="13" name="怪兽">
+  <object id="20" name="褐色" x="283.5" y="191">
+   <point/>
+  </object>
+  <object id="21" name="绿色" x="703" y="191.5">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="传送门">
+  <object id="1" x="776.5" y="174" width="39" height="50.5"/>
+ </objectgroup>
+ <objectgroup id="29" name="gamer">
+  <object id="38" x="0" y="190">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="34" name="沟壑">
+  <object id="42" x="184.5" y="199.8" width="29.5" height="201"/>
+  <object id="43" x="489.5" y="199.8" width="29.5" height="201"/>
+ </objectgroup>
+ <objectgroup id="36" name="可走层">
+  <object id="60" x="0.5" y="194" width="183" height="206.5"/>
+  <object id="61" x="215" y="198.5" width="274.5" height="201.5"/>
+  <object id="62" x="520.5" y="196.5" width="295.5" height="204.5"/>
+  <object id="63" x="77.5" y="117.5" width="145.5" height="46"/>
+  <object id="64" x="182" y="76" width="169" height="47.5"/>
+  <object id="65" x="557.5" y="103" width="131" height="24.5"/>
+  <object id="66" x="379.5" y="142.5" width="135.5" height="26.5"/>
+ </objectgroup>
+</map>

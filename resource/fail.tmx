@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-down" width="51" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="1">
+ <imagelayer id="2" name="fail" offsetx="4.78356" offsety="-0.39863">
+  <image source="image/final/P`7}`H%PR~VKMYY~]_9Q38W.png" width="806" height="475"/>
+ </imagelayer>
+</map>
